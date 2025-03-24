@@ -141,7 +141,7 @@ class AdlsGen2Setup:
                     "displayName": group_name,
                     #"securityEnabled": self.security_enabled_groups,
                     "securityEnabled": True,
-                    "groupTypes": ["Unified"],
+                    #"groupTypes": ["Unified"],
                     # If Unified does not work for you, then you may need the following settings instead:
                      "mailEnabled": False,
                     "mailNickname": group_name
